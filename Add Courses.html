@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1><a href="index.html">Coursy</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="My Courses.html">My Courses</a></li>
+                <li><a href="Add Courses.html" class="active">Add Courses</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+   <div class="form-title">Add a New Course</div>
+    <form action="My Courses.html" method="post">
+        <label for="course-name">Course Name:</label>
+        <input type="text" id="course-name" name="course-name" required><br><br>
+
+        <label for="instructor">Instructor:</label>
+        <input type="text" id="instructor" name="instructor" required><br><br>
+
+        <label for="credit-hours">Credit Hours:</label>
+        <input type="number" min="1" max="5" id="credit-hours" name="credit-hours" required><br><br>
+
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes"></textarea><br><br>
+
+        <input type="submit" value="Add Course">
+    </form>
+       <footer>
+         <p><a href="Contact Us.html">Contact Us</a></p>
+       <p class="copyright">&copy; 2026 Coursy. All rights reserved.</p>
+       <p class="by">Created by Yousef Ahmed</p>
+       </footer>
+</body>
+</html>
